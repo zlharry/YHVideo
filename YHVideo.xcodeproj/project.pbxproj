@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A0469781EEE85C200E92E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0469771EEE85C200E92E53 /* main.m */; };
-		4A04697B1EEE85C200E92E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A04697A1EEE85C200E92E53 /* AppDelegate.m */; };
-		4A04697E1EEE85C200E92E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A04697D1EEE85C200E92E53 /* ViewController.m */; };
 		4A0469811EEE85C200E92E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A04697F1EEE85C200E92E53 /* Main.storyboard */; };
 		4A0469831EEE85C200E92E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0469821EEE85C200E92E53 /* Assets.xcassets */; };
 		4A0469861EEE85C200E92E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0469841EEE85C200E92E53 /* LaunchScreen.storyboard */; };
+		4A0469951EEE867A00E92E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0469901EEE867A00E92E53 /* AppDelegate.m */; };
+		4A0469961EEE867A00E92E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0469921EEE867A00E92E53 /* main.m */; };
+		4A0469971EEE867A00E92E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0469941EEE867A00E92E53 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A0469731EEE85C200E92E53 /* YHVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A0469771EEE85C200E92E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A0469791EEE85C200E92E53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4A04697A1EEE85C200E92E53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A04697C1EEE85C200E92E53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A04697D1EEE85C200E92E53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A0469801EEE85C200E92E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A0469821EEE85C200E92E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0469851EEE85C200E92E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0469871EEE85C200E92E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A04698F1EEE867A00E92E53 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0469901EEE867A00E92E53 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0469921EEE867A00E92E53 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0469931EEE867A00E92E53 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A0469941EEE867A00E92E53 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +58,7 @@
 		4A0469751EEE85C200E92E53 /* YHVideo */ = {
 			isa = PBXGroup;
 			children = (
-				4A0469791EEE85C200E92E53 /* AppDelegate.h */,
-				4A04697A1EEE85C200E92E53 /* AppDelegate.m */,
-				4A04697C1EEE85C200E92E53 /* ViewController.h */,
-				4A04697D1EEE85C200E92E53 /* ViewController.m */,
-				4A04697F1EEE85C200E92E53 /* Main.storyboard */,
-				4A0469821EEE85C200E92E53 /* Assets.xcassets */,
-				4A0469841EEE85C200E92E53 /* LaunchScreen.storyboard */,
-				4A0469871EEE85C200E92E53 /* Info.plist */,
+				4A04698D1EEE867A00E92E53 /* Class */,
 				4A0469761EEE85C200E92E53 /* Supporting Files */,
 			);
 			path = YHVideo;
@@ -74,9 +67,40 @@
 		4A0469761EEE85C200E92E53 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A0469771EEE85C200E92E53 /* main.m */,
+				4A04697F1EEE85C200E92E53 /* Main.storyboard */,
+				4A0469841EEE85C200E92E53 /* LaunchScreen.storyboard */,
+				4A0469821EEE85C200E92E53 /* Assets.xcassets */,
+				4A0469871EEE85C200E92E53 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A04698D1EEE867A00E92E53 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4A04698E1EEE867A00E92E53 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4A04698E1EEE867A00E92E53 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4A0469911EEE867A00E92E53 /* Lib */,
+				4A04698F1EEE867A00E92E53 /* AppDelegate.h */,
+				4A0469901EEE867A00E92E53 /* AppDelegate.m */,
+				4A0469921EEE867A00E92E53 /* main.m */,
+				4A0469931EEE867A00E92E53 /* ViewController.h */,
+				4A0469941EEE867A00E92E53 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4A0469911EEE867A00E92E53 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A04697E1EEE85C200E92E53 /* ViewController.m in Sources */,
-				4A04697B1EEE85C200E92E53 /* AppDelegate.m in Sources */,
-				4A0469781EEE85C200E92E53 /* main.m in Sources */,
+				4A0469971EEE867A00E92E53 /* ViewController.m in Sources */,
+				4A0469961EEE867A00E92E53 /* main.m in Sources */,
+				4A0469951EEE867A00E92E53 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
